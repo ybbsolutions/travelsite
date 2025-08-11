@@ -4,7 +4,7 @@ import './globals.css'
 import { Globe } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'TravelPrep',
+  title: 'online eta uk',
   description: 'Plan safe trips with guides, documentation, and tips.',
   generator: 'v0.dev',
 }
@@ -22,7 +22,7 @@ export default function RootLayout({
             <div className="container flex h-16 items-center justify-between">
               <div className="flex items-center gap-2 font-bold">
                 <Globe className="h-5 w-5" />
-                <span>TravelPrep</span>
+                <span>online eta uk</span>
               </div>
               <nav className="hidden md:flex gap-6">
                 <Link href="/" className="text-sm font-medium hover:underline">
@@ -50,7 +50,7 @@ export default function RootLayout({
             <div className="container py-8 md:py-12">
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 <div>
-                  <h3 className="text-lg font-semibold mb-4">TravelPrep</h3>
+                  <h3 className="text-lg font-semibold mb-4">online eta uk</h3>
                   <p className="text-sm text-muted-foreground">Your best ally for preparing safe trips abroad.</p>
                 </div>
                 <div>
@@ -107,7 +107,7 @@ export default function RootLayout({
                 </div>
               </div>
               <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-                <p>© {new Date().getFullYear()} TravelPrep. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} online eta uk. All rights reserved.</p>
               </div>
             </div>
           </footer>
